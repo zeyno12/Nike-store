@@ -1,0 +1,36 @@
+.clip_container {
+  position: relative;
+  height: 28vh;
+  width: 32vh;
+  border-radius: 12px;
+  overflow: hidden;
+  .img_clip {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    opacity: 1;
+    z-index: +1;
+  }
+  .clip_video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    z-index: 0;
+    transition: 300ms all;
+  }
+}
+.clip_container:hover >   .clip_video  { 
+   opacity: 1;
+  z-index: +20; }

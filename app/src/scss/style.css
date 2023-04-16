@@ -1,0 +1,121 @@
+.container_hero {
+  position: relative;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.container_hero .theme_clip {
+  background-image: linear-gradient(0.2deg, rgb(40, 173, 222) 4.8%, rgb(27, 76, 224) 85.5%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+  height: 85vh;
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.container_hero .items_section {
+  position: relative;
+  z-index: 5;
+  opacity: 1;
+  display: grid;
+  place-items: center;
+  justify-items: center;
+  width: 100%;
+}
+.container_hero .items_section .hero_text_items {
+  display: grid;
+  place-items: center;
+  justify-items: center;
+  margin-top: 28px;
+}
+.container_hero .items_section .hero_text_items .text_title {
+  font-size: 2.5rem;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.05));
+  color: rgb(226, 232, 240);
+}
+.container_hero .items_section .hero_text_items .btn_hero {
+  background: rgb(133, 202, 227) 4.8%;
+  border: none;
+  border-radius: 12px;
+  color: #010145;
+  padding: 7px 12px;
+  font-size: 20px;
+  box-shadow: 0px 2px 10px -2px rgb(222, 222, 222);
+  cursor: pointer;
+}
+.container_hero .items_section .hero_text_items .btn_hero:hover {
+  transition: 300ms ease;
+  background: rgb(0, 151, 205) 4.8%;
+}
+.container_hero .items_section .hero_text_items .clip_video_section {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 12vh;
+  left: 11%;
+  width: auto;
+  height: auto;
+}
+.container_hero .items_section .img_section {
+  display: flex;
+  align-items: center;
+}
+.container_hero .items_section .img_section .img_hero {
+  width: auto;
+  height: 45vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+  cursor: pointer;
+  transition: 700ms ease-in-out all;
+  transform: rotate(25deg);
+}
+.container_hero .items_section .img_section .img_hero:hover {
+  transform: rotate(0);
+}
+
+.clip_container {
+  position: relative;
+  height: 28vh;
+  width: 32vh;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.clip_container .img_clip {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 12px;
+  opacity: 1;
+  z-index: 1;
+}
+.clip_container .clip_video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0;
+  z-index: 0;
+  transition: 300ms all;
+}
+
+.clip_container:hover > .clip_video {
+  opacity: 1;
+  z-index: 20;
+}/*# sourceMappingURL=style.css.map */
