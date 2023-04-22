@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
 .container_hero {
-  position: relative;
   height: auto;
   width: auto;
   display: flex;
@@ -57,10 +57,18 @@
   place-items: center;
   gap: 10px;
   position: absolute;
-  top: 12vh;
+  top: 5vh;
   left: 11%;
   width: auto;
   height: auto;
+}
+.container_hero .items_section .hero_text_items .sosialLinks_section {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 20vh;
+  right: 20px;
+  gap: 10px;
 }
 .container_hero .items_section .img_section {
   display: flex;
@@ -118,4 +126,162 @@
 .clip_container:hover > .clip_video {
   opacity: 1;
   z-index: 20;
+}
+
+.sosial_icons {
+  width: 1.7rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms all ease;
+}
+.sosial_icons:hover {
+  transform: scale(1.2);
+}
+
+.sales {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title_section_hero {
+  display: grid;
+  margin-top: 10%;
+  place-items: center;
+}
+.title_section_hero h1 {
+  font-size: 3rem;
+  line-height: 1;
+  margin: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+}
+
+.item_section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 300ms all;
+  border-radius: 18px;
+  width: 100%;
+  transform: scale(0.7);
+  box-shadow: 34px 9px 30px -2px rgb(147, 183, 255);
+}
+.item_section .item_section_center {
+  display: grid;
+  place-items: center;
+  padding: 25px 10px;
+  justify-items: flex-start;
+}
+.item_section .item_section_center .item_section_center_texts {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.item_section .item_section_center .item_section_center_texts .item_section_center_texts_price {
+  background-color: rgba(0, 78, 157, 0.6784313725);
+  color: #f1f5f9;
+  padding: 5px 10px;
+  border-radius: 0px 8px 0px 8px;
+}
+.item_section .item_section_center .item_section_center_texts .item_section_center_texts_price h2 {
+  margin: 0;
+}
+.item_section .item_section_center .item_section_center_texts .item_section_center_texts_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item_section .item_section_center .item_section_center_texts .item_section_center_texts_icon svg {
+  color: gold;
+}
+.item_section .item_section_center .item_section_btns {
+  display: flex;
+  align-items: center;
+}
+.item_section .item_section_center .item_section_btns .btn1 {
+  background: transparent;
+  border: none;
+  margin: 0px 20px;
+}
+.item_section .item_section_center .item_section_btns .btn2 {
+  outline: none;
+  border: none;
+  margin: 0px 20px;
+  background-color: rgba(126, 190, 255, 0.6784313725);
+  color: #272727;
+  border-radius: 0 12px;
+  padding: 10px 15px;
+}
+.item_section .item_section_image {
+  max-width: 60vh;
+  max-height: 40vh;
+  transform: rotate(0deg);
+  transition: 300ms ease-in-out;
+}
+.item_section .item_section_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.item_section .item_section_image:hover {
+  transform: rotate(15deg);
+  z-index: 1;
+}
+.item_section:hover {
+  box-shadow: 34px 9px 30px -2px rgb(68, 130, 255);
+  transform: scale(0.8);
+}
+
+.flexContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  width: 100%;
+}
+.flexContent .flexContent_text_items .flexContent_text_heading {
+  color: rgb(0, 63, 200);
+  margin: 0;
+}
+.flexContent .flexContent_text_items h2 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+.flexContent .flexContent_text_items button {
+  border: none;
+  background-color: steelblue;
+  border-radius: 12px;
+  color: white;
+  padding: 8px 10px;
+  margin-top: 12px;
+  box-shadow: 9px 10px 14px -1px #0c87af;
+}
+.flexContent .flexContent_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg);
+}
+.flexContent .flexContent_image img {
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.flexContent .flexContent_image img:hover {
+  transition: 300ms linear;
+  transform: rotate(16deg);
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

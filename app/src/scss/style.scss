@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
 @import '../components/Hero/hero.scss';
 @import '../components//utils/Clips/clip.scss';
 @import '../components/utils/SosialLink/sosialIcon.scss';
+@import '../components/Sales/sales.scss';
+@import '../components/utils/Title/title.scss';
+@import '../components/utils/Item/item.scss';
+@import '../components/FlexContent/flexContent.scss';
+@import '../components/Footer/footer.scss';
+*, *::after,*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+font-family: 'Raleway', sans-serif;
+}
+button{
+cursor: pointer;
+}

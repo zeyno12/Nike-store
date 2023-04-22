@@ -1,5 +1,5 @@
 .container_hero {
-//  position: relative;
+  //  position: relative;
   height: auto;
   width: auto;
   display: flex;
@@ -52,23 +52,23 @@
           background: rgb(0, 151, 205) 4.8%;
         }
       }
-      .clip_video_section{
-      display: grid;
-      place-items: center;
-      gap:10px;
-      position: absolute;
-      top: 20vh;
-      left: 11%;
-      width: auto;
-      height: auto;
+      .clip_video_section {
+        display: grid;
+        place-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 5vh;
+        left: 11%;
+        width: auto;
+        height: auto;
       }
-      .sosialLinks_section{
-      display: grid;
-      place-items: center;
-      position: absolute;
-      top: 20vh;
-      right: 20px;
-      gap: 10px;
+      .sosialLinks_section {
+        display: grid;
+        place-items: center;
+        position: absolute;
+        top: 20vh;
+        right: 20px;
+        gap: 10px;
       }
     }
     .img_section {

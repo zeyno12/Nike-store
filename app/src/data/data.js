@@ -56,7 +56,7 @@ const popularsales = {
       btn: "Buy Now",
       img: psale2,
       price: "200",
-      color: "from-blue-600 to-blue-500",
+      color: 'pink',
       shadow: "shadow-lg shadow-blue-500",
     },
     {
@@ -67,7 +67,7 @@ const popularsales = {
       btn: "Buy Now",
       img: psale1,
       price: "200",
-      color: "from-red-500 to-rose-500",
+      color: "#e11d48",
       shadow: "shadow-lg shadow-rose-500",
     },
     {
@@ -113,7 +113,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product7,
       price: "150",
-      color: "from-sky-600 to-indigo-600",
+      color: "#94a3b8",
       shadow: "shadow-lg shadow-blue-500",
     },
     {
@@ -124,7 +124,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product2,
       price: "150",
-      color: "from-green-500 to-emerald-500",
+      color: "#4ade80",
       shadow: "shadow-lg shadow-green-500",
     },
     {
@@ -135,7 +135,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product3,
       price: "150",
-      color: "from-red-500 to-rose-500",
+      color: "#ef4444",
       shadow: "shadow-lg shadow-rose-500",
     },
     {
@@ -146,7 +146,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product4,
       price: "150",
-      color: "from-orange-500 to-amber-500",
+      color: "#f59e0b",
       shadow: "shadow-lg shadow-orange-500",
     },
     {
@@ -157,7 +157,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product5,
       price: "150",
-      color: "from-gray-900 to-yellow-500",
+      color: "#22d3ee",
       shadow: "shadow-lg shadow-yellow-500",
     },
     {
@@ -168,7 +168,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product6,
       price: "150",
-      color: "from-blue-500 to-cyan-500",
+      color: "#fde047",
       shadow: "shadow-lg shadow-cyan-500",
     },
     {
@@ -179,7 +179,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product1,
       price: "150",
-      color: "from-yellow-500 to-yellow-500",
+      color: "#f9a8d4",
       shadow: "shadow-lg shadow-yellow-500",
     },
     {
@@ -190,7 +190,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product9,
       price: "150",
-      color: "from-[#936550] to-orange-900",
+      color: "#ec4899",
       shadow: "shadow-lg shadow-orange-800",
     },
     {
@@ -201,7 +201,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product10,
       price: "150",
-      color: "from-indigo-700 to-indigo-700",
+      color: "#c026d3",
       shadow: "shadow-lg shadow-indigo-500",
     },
     {
@@ -212,7 +212,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product12,
       price: "150",
-      color: "from-green-600 to-lime-500",
+      color: "#d8b4fe",
       shadow: "shadow-lg shadow-lime-500",
     },
     {
@@ -223,7 +223,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product11,
       price: "150",
-      color: "from-slate-900 to-black",
+      color: "#8b5cf6",
       shadow: "shadow-lg shadow-black",
     },
     {
@@ -234,7 +234,7 @@ const toprateslaes = {
       btn: "Buy Now",
       img: product8,
       price: "150",
-      color: "from-blue-900 to-blue-500",
+      color: "#2563eb",
       shadow: "shadow-lg shadow-blue-500",
     },
   ],

@@ -1,0 +1,39 @@
+.flexContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  width: 100%;
+}
+.flexContent .flexContent_text_items .flexContent_text_heading {
+  color: rgb(0, 63, 200);
+  margin: 0;
+}
+.flexContent .flexContent_text_items h2 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+.flexContent .flexContent_text_items button {
+  border: none;
+  background-color: steelblue;
+  border-radius: 12px;
+  color: white;
+  padding: 8px 10px;
+  margin-top: 12px;
+  box-shadow: 9px 10px 14px -1px #0c87af;
+}
+.flexContent .flexContent_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg);
+}
+.flexContent .flexContent_image img {
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.flexContent .flexContent_image img:hover {
+  transition: 300ms linear;
+  transform: rotate(16deg);
+}/*# sourceMappingURL=flexContent.css.map */
