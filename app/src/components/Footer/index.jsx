@@ -5,11 +5,6 @@ const Footer = ({ footerAPI: { titles, links } }) => {
     <>
       <footer>
         <div className="footer_section">
-          {/* {titles.map((val, i) => (
-            <div className="footer_items_title" key={i}>
-              <h3>{val.title}</h3>
-            </div>
-          ))} */}
           {links.map((list, i) => (
             <ul key={i}>
               {list.map((link, i) => (
@@ -18,9 +13,23 @@ const Footer = ({ footerAPI: { titles, links } }) => {
             </ul>
           ))}
         </div>
+          <div className="end_text">
+            <div>
+              <p>© 2023 Claradix LLC</p>
+            </div>
+            <div className="sosial_links">
+              <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Behance</li>
+                <li>LinkedIn</li>
+              </ul>
+            </div>
+          </div>
       </footer>
     </>
   );
 };
 
 export default Footer;
+

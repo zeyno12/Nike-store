@@ -1,0 +1,31 @@
+.cart_count_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  .cart_count_section_icon_text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    svg{
+    cursor: pointer;
+    }
+    .text_items {
+      p {
+        font-weight: 500;
+        font-size: 1.1rem;
+        span {
+          background-color: black;
+          color: white;
+          padding: 5px 12px;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+  button{
+    border:none;
+    background: transparent;
+}
+}

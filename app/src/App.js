@@ -5,9 +5,13 @@ import  Sales  from './components/Sales';
 import { heroapi,popularsales,toprateslaes, highlight,sneaker ,footerAPI} from './data/data';
 import FlexContent  from './components/FlexContent';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Card from './components/Card';
 function App() {
   return (
     <>
+    <Navbar/>
+    <Card/>
       <main>
         <Hero heroapi={heroapi}/>
         <Sales endpoint={popularsales}/>

@@ -1,0 +1,29 @@
+.cart_count_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+}
+.cart_count_section .cart_count_section_icon_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.cart_count_section .cart_count_section_icon_text svg {
+  cursor: pointer;
+}
+.cart_count_section .cart_count_section_icon_text .text_items p {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.cart_count_section .cart_count_section_icon_text .text_items p span {
+  background-color: black;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 12px;
+}
+.cart_count_section button {
+  border: none;
+  background: transparent;
+}/*# sourceMappingURL=cartCount.css.map */

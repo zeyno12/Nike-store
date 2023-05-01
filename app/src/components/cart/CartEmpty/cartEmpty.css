@@ -1,0 +1,32 @@
+.cart_empty_section {
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.cart_empty_section img {
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cart_empty_section button {
+  background-color: orange;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  transform: scale(1);
+  transition: 300ms all;
+  box-shadow: 7px 6px 14px -1px orange;
+  padding: 10px 20px;
+}
+.cart_empty_section button span {
+  color: black;
+  font-weight: 500;
+}
+.cart_empty_section button:hover {
+  transform: scale(1.15);
+}/*# sourceMappingURL=cartEmpty.css.map */

@@ -1,0 +1,96 @@
+.cartItem_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10%;
+  .cartItem_section_img_texts {
+    gap: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 60%;
+    .img_section {
+      position: relative;
+      img {
+        width: 20vh;
+        object-fit: fill;
+        height: auto;
+      }
+      .img_second_section {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+        color: black;
+        border-radius: 0.25rem;
+        background-color: rgba(255, 255, 255, 0.522);
+        backdrop-filter: blur(8px);
+        padding-left: 1px;
+        padding-right: 1px;
+        font-weight: 600;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        font-size: 16px;
+        line-height: 1rem;
+      }
+    }
+    .cartItem_section_texts {
+      display: grid;
+      place-items: center;
+      gap: 4vh;
+      .cartItem_section_texts_heading {
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+        h3 {
+          font-size: 1.125rem;
+          line-height: 1.75rem; 
+          font-weight: 500;
+          color: rgb(15 23 42);
+        }
+        p {
+          color: rgb(30 41 59);
+          font-size: 0.875rem; 
+          line-height: 1.25rem; 
+        }
+      }
+      .cartItem_section_btns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        button {
+          background-color: transparent;
+          border: none;
+        }
+        .count_btns {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .price_section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    .price_item {
+      display: grid;
+      place-items: center;
+      justify-items: center;
+    }
+    .price_btn {
+      display: grid;
+      place-items: center;
+      justify-items: center;
+      button {
+        background-color:transparent;
+        border: none;
+      }
+    }
+  }
+}

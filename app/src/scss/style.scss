@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import '../components/Navbar/navbar.scss';
+@import '../components/Card/card.scss';
+@import '../components/cart/CartCount/cartCount.scss';
+@import '../components/cart/CartEmpty/cartEmpty.scss';
+@import '../components/cart/CartItem/cartItem.scss';
 @import '../components/Hero/hero.scss';
 @import '../components//utils/Clips/clip.scss';
 @import '../components/utils/SosialLink/sosialIcon.scss';

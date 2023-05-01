@@ -1,0 +1,122 @@
+.header {
+  position: absolute;
+  top: 0;
+  padding: 20px 40px;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 5;
+  transition: 300ms linear;
+}
+.header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header_logo {
+  display: flex;
+  align-items: center;
+}
+.header .header_logo img {
+  width: 16vh;
+  height: auto;
+}
+.header .icon_items ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header .icon_items ul li {
+  color: white;
+  cursor: pointer;
+  list-style: none;
+}
+.header .icon_items ul li .count_section {
+  position: relative;
+  border: none;
+  color: white;
+  background: transparent;
+}
+.header .icon_items ul li .count_section span {
+  border-radius: 50%;
+  position: absolute;
+  top: -14px;
+  left: 16px;
+  background: white;
+  font-weight: 600;
+  color: blue;
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 9px 2px 11px 2px;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.header_scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+  z-index: 10;
+  transition: 300ms linear;
+  background-color: rgba(105, 177, 202, 0.83);
+  padding: 20px 40px;
+}
+.header_scroll .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_scroll .header_logo {
+  display: flex;
+  align-items: center;
+}
+.header_scroll .header_logo img {
+  width: 16vh;
+  height: auto;
+  filter: brightness(0);
+}
+.header_scroll .icon_items ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header_scroll .icon_items ul li {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  list-style: none;
+}
+.header_scroll .icon_items ul li .count_section {
+  position: relative;
+  border: none;
+  color: rgb(0, 0, 0);
+  background: transparent;
+}
+.header_scroll .icon_items ul li .count_section span {
+  border-radius: 50%;
+  position: absolute;
+  top: -14px;
+  left: 16px;
+  background: white;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  width: 20px;
+  height: 20px;
+  padding: 9px 2px 11px 2px;
+  justify-content: center;
+  font-size: 16px;
+}/*# sourceMappingURL=navbar.css.map */
